@@ -1,0 +1,37 @@
+body{
+    background-color: antiquewhite;
+    text-align: center;
+}
+.container{
+    padding-top: 0.6rem;
+}
+.head{
+    padding-top: 20px;
+    font-size: 2.7rem;
+}
+.btn{
+    padding: 16px 42px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 13px;
+    margin-top: 30px;
+}
+.image1{
+    padding-left: 2rem;
+}
+.container img{
+    height: 200px;
+    width: 200px;
+}
+.contain{
+    display: flex;
+    justify-content: space-around;
+    font-size: 3rem;
+}
+#roundsInput{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    font-size: 20px;
+}
