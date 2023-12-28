@@ -7,21 +7,34 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>Let's Play</h1>
-    <div class="contain">
-    <p class="score1"></p>
-    <p class="score2"></p>
-</div>
-    <h2 class="head">Let's choose the winner</h2>
-    <div class="container">
-      <img src="images/1.png" alt="image" class="image" />
-      <img src="images/1.png" alt="image1" class="image1" /><br />
-      <input
-        type="number"
-        id="roundsInput"
-        placeholder="Enter number of rounds"
-      />
-      <button class="btn">Play</button>
+    <div class="navbar">
+      <div class="heading">
+        <h1>Rock paper scissior</h1>
+      </div>
+    </div>
+    <div class="game">
+      <div class="choice" id="paper">
+        <img src="./images/paper.webp" alt="paper">
+      </div>
+      <div class="choice" id="scissor">
+        <img src="./images/scissor.webp" alt="scissor">
+      </div>
+      <div class="choice" id="rock">
+        <img src="./images/stone.webp " alt="rock">
+      </div>
+    </div>
+    <div class="score-board">
+      <div class="score">
+        <p id="user">0</p>
+        <p>You</p>
+      </div>
+      <div class="score">
+        <p id="comp">0</p>
+        <p>Computer</p>
+      </div>
+    </div>
+    <div class="msg-container">
+      <p id="msg">Play Your Move</p>
     </div>
     <script src="index.js"></script>
   </body>
