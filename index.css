@@ -1,37 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
 body{
-    background-color: antiquewhite;
+    background-color: hsl(186, 100%, 25%);
+}
+.heading{
+    background-color: #004f80;
+    height: 5rem;
+    color: aliceblue;
+    line-height: 5rem;
     text-align: center;
 }
-.container{
-    padding-top: 0.6rem;
-}
-.head{
-    padding-top: 20px;
-    font-size: 2.7rem;
-}
-.btn{
-    padding: 16px 42px;
-    cursor: pointer;
-    display: inline-block;
-    border-radius: 13px;
-    margin-top: 30px;
-}
-.image1{
-    padding-left: 2rem;
-}
-.container img{
-    height: 200px;
-    width: 200px;
-}
-.contain{
+.choice{
+    height:170px;
+    width: 170px;
+    border-radius: 50%;
     display: flex;
-    justify-content: space-around;
-    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
-#roundsInput{
-    width: 20rem;
-    height: 3rem;
-    border-radius: 10px;
-    background-color: antiquewhite;
-    font-size: 20px;
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choice:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    background-color: aliceblue;
+}
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 6rem;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 4rem;
+    margin-top: 3rem;
+}
+.msg-container{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#user,#comp{
+    font-size: 4rem;
+}
+#msg{
+    font-size: 1.4rem;
+    display: inline;
+    background-color: #004f80;
+    color: aliceblue;
+    padding: 1rem;
+    border-radius: 1rem;
 }
